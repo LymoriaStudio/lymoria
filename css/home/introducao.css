@@ -6,8 +6,11 @@
   align-items: center;
 }
 .introducao-conteudo h1 {
+  font-family: "Krub", sans-serif;
   width: 600px;
   margin-bottom: 12px;
+  font-size: 3rem;
+  color: #f9f8f3;
 }
 .introducao-conteudo h1 span {
   background: linear-gradient(
@@ -27,6 +30,9 @@
   -webkit-text-fill-color: transparent;
 }
 .introducao-conteudo p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  color: #b0b0b0;
   width: 600px;
   margin-bottom: 40px;
 }
@@ -47,6 +53,7 @@
 }
 .intro-btn1 a {
   font-family: "Inter", sans-serif;
+  color: #f9f8f3;
   font-size: 18px;
   font-weight: 500;
   z-index: 1;
@@ -90,6 +97,7 @@
 .intro-btn2 a {
   font-size: 18px;
   font-weight: 500;
+  color: #f9f8f3;
 }
 .intro-btn2:hover {
   background: #1a1dae;

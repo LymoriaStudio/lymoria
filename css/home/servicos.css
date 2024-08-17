@@ -1,0 +1,93 @@
+.servicos {
+  padding-top: 150px;
+}
+.servicos-titulo h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  margin-bottom: 8px;
+}
+.servicos-titulo h1 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.25rem;
+  color: #f9f8f3;
+  width: 420px;
+}
+.serv-icons img {
+  margin-top: 64px;
+  margin-left: 50px;
+}
+.serv-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+}
+.serv-txt h2 {
+  font-family: "Inter", sans-serif;
+  color: #f9f8f3;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 64px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.serv-txt p {
+  font-family: "Inter", sans-serif;
+  color: #b0b0b0;
+  font-size: 1.1rem;
+  width: 340px;
+  text-align: justify;
+  margin-bottom: 64px;
+}
+.serv-btn {
+  width: 280px;
+  height: 50px;
+  border-radius: 30px;
+  border: solid 2px #7700d4;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.btn-serv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serv-btn a {
+  font-family: "Inter", sans-serif;
+  color: #f9f8f3;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 1;
+}
+.serv-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #7700d4;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+.serv-btn:hover {
+  box-shadow: 1px 1px 200px #7700d4;
+  background: #7700d4;
+  border: none;
+}
+.serv-btn:hover a {
+  color: #b0b0b0;
+  font-weight: 500;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
