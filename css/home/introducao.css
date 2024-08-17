@@ -95,6 +95,8 @@
   background: #1a1dae;
 }
 .intro-btn2 a:hover {
+  font-size: 18px;
+  font-weight: 500;
   color: #b0b0b0;
 }
 
