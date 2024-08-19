@@ -1,0 +1,92 @@
+.contato-geral {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.contato-conteudo h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  margin-bottom: 8px;
+}
+.contato-conteudo h1 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.25rem;
+  color: #f9f8f3;
+  width: 480px;
+  margin-bottom: 24px;
+}
+.contato-conteudo p {
+  font-family: "Inter", sans-serif;
+  color: #b0b0b0;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.tel-cont {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 24px;
+}
+.tel-cont a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f9f8f3;
+}
+.email-cont {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.email-cont a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f9f8f3;
+}
+.redes-sociais {
+  margin-top: 40px;
+}
+.sociais {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 64px;
+}
+.cont-btn {
+  width: 240px;
+  height: 50px;
+}
+.cont-btn a {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f9f8f3;
+}
+.cont-btn:hover {
+  background: #1a1dae;
+}
+.cont-btn a:hover {
+  font-size: 18px;
+  font-weight: 500;
+  color: #b0b0b0;
+}
+.contato-input {
+  content: "";
+  width: 650px;
+  height: 800px;
+  display: grid;
+}
+.contato-forms {
+  color: #f9f8f3;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}

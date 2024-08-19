@@ -1,0 +1,24 @@
+.parceiros {
+  padding-top: 150px;
+}
+.parceiros-titulo h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  margin-bottom: 8px;
+}
+.parceiros-titulo h1 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.25rem;
+  color: #f9f8f3;
+  width: 440px;
+  margin-bottom: 64px;
+}
+.marcas-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
