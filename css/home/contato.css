@@ -59,20 +59,23 @@
   gap: 12px;
   margin-bottom: 64px;
 }
-.cont-btn {
+.conts-btn {
   width: 240px;
   height: 50px;
+  border: none;
+  border-radius: 30px;
+  background: #1b58ed;
 }
-.cont-btn a {
+.conts-btn a {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #f9f8f3;
 }
-.cont-btn:hover {
+.conts-btn:hover {
   background: #1a1dae;
 }
-.cont-btn a:hover {
+.conts-btn a:hover {
   font-size: 18px;
   font-weight: 500;
   color: #b0b0b0;
