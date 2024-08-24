@@ -80,16 +80,64 @@
   font-weight: 500;
   color: #b0b0b0;
 }
-.contato-input {
-  content: "";
-  width: 650px;
-  height: 800px;
-  display: grid;
-}
-.contato-forms {
-  color: #f9f8f3;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
+
+/* From Uiverse.io by omriluz */
+.form-container {
+  width: 550px;
+  height: 600px;
+  border: 2px solid #7700d4; /* Borda roxa */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
   text-transform: uppercase;
+  font-size: 1rem;
+  color: #f9f8f3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: transparent; /* Fundo transparente */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  padding: 10px;
+  border: 2px solid #3e3e3e; /* Borda da caixa */
+  border-radius: 4px;
+  background-color: #333; /* Fundo da caixa */
+  color: #f9f8f3; /* Cor do texto */
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.enviar .form-submit-btn {
+  font-family: "Inter", sans-serif;
+  width: 442px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #7700d4; /* Cor roxa para o botão */
+  color: #fff; /* Cor do texto no botão */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.enviar .form-submit-btn:hover {
+  background-color: #5a00a8; /* Cor roxa escura para hover */
 }

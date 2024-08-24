@@ -123,3 +123,90 @@
 .proj-btn:hover {
   background: #1a1dae;
 }
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .projetos {
+    padding-top: 120px;
+  }
+  .projetos-titulo h1 {
+    font-size: 2rem;
+    width: 400px;
+  }
+  .linha1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card1 img {
+    width: 420px;
+    height: 320px;
+  }
+  .card-con1 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  .card-con1 span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #b0b0b0;
+    margin-right: 110px;
+  }
+
+  /* From Uiverse.io by reshades */
+  .card-btn {
+    width: 80px;
+    height: 40px;
+    border: 2px solid #7700d4;
+  }
+
+  .card-btn svg {
+    width: 28px;
+    margin-left: 18px;
+  }
+  .card2 img {
+    width: 100%;
+    height: 480px;
+    border-radius: 24px;
+  }
+  .card2 .card-con1 span {
+    font-size: 1rem;
+    margin-right: 480px;
+  }
+  .linha3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card3 img {
+    width: 420px;
+    height: 320px;
+  }
+}
+@media (max-width: 600px) {
+  .projetos {
+    padding-top: 80px;
+  }
+  .linha1 {
+    grid-template-columns: 1fr;
+  }
+  .card1 img {
+    width: 400px;
+  }
+  .card-con1 span {
+    margin-right: 180px;
+  }
+
+  .card2 img {
+    width: 400px;
+    height: 320px;
+  }
+  .card2 .card-con1 span {
+    font-size: 1rem;
+    margin-right: 180px;
+  }
+  .linha3 {
+    grid-template-columns: 1fr;
+  }
+  .card3 img {
+    width: 400px;
+    height: 320px;
+  }
+}

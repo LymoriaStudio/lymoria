@@ -32,3 +32,15 @@ img {
   height: auto;
   display: block;
 }
+@media (max-width: 800px) {
+  body {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+}

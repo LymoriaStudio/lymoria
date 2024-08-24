@@ -15,10 +15,14 @@
   color: #f9f8f3;
   width: 420px;
 }
-.serv-icons img {
+.serv-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 64px;
-  margin-left: 50px;
+  margin-bottom: 24px;
 }
+
 .serv-cont {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -29,7 +33,6 @@
   color: #f9f8f3;
   text-transform: uppercase;
   font-size: 1.5rem;
-  margin-top: 64px;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -90,4 +93,54 @@
 .type1:hover::after {
   visibility: visible;
   transform: scale(100) translateX(2px);
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .servicos {
+    padding-top: 120px;
+  }
+  .servicos-titulo h1 {
+    font-size: 2rem;
+    width: 400px;
+  }
+  .serv-icon {
+    justify-content: left;
+    align-items: left;
+    margin-top: 40px;
+  }
+  .serv-cont {
+    grid-template-columns: 1fr;
+  }
+  .serv-txt h2 {
+    font-size: 1.2rem;
+    text-align: left;
+    width: 600px;
+  }
+  .serv-txt p {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: -50px;
+  }
+  .serv-btn {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 600px) {
+  .servicos {
+    padding-top: 80px;
+  }
+  .serv-txt h2 {
+    width: 400px;
+  }
+  .serv-txt p {
+    width: 400px;
+  }
+  .serv-btn {
+    width: 240px;
+    height: 40px;
+  }
+  .serv-btn a {
+    font-size: 14px;
+  }
 }

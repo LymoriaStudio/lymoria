@@ -107,3 +107,45 @@
   font-weight: 500;
   color: #b0b0b0;
 }
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .introducao-conteudo h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .introducao-conteudo h1 {
+    font-size: 2rem;
+    width: 400px;
+  }
+  .introducao-conteudo p {
+    font-size: 1rem;
+    width: 400px;
+    text-align: justify;
+  }
+  .introducao-btn {
+    display: flex;
+    gap: 24px;
+  }
+  .intro-btn1 {
+    width: 120px;
+    height: 40px;
+  }
+  .intro-btn1 a {
+    font-size: 14px;
+  }
+  .intro-btn2 {
+    width: 200px;
+    height: 40px;
+  }
+  .intro-btn2 a {
+    font-size: 14px;
+  }
+  .intro-btn2:hover {
+    background: #1a1dae;
+  }
+  .intro-btn2 a:hover {
+    font-size: 14px;
+  }
+}

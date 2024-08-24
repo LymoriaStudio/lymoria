@@ -49,3 +49,42 @@
   font-weight: 500;
   color: #b0b0b0;
 }
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .sobrenos {
+    margin-top: 120px;
+  }
+  .sobrenos-container {
+    grid-template-columns: 1fr;
+  }
+  .sobre-conteudo h1 {
+    font-size: 2rem;
+    width: 400px;
+  }
+  .sobre-conteudo p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+  .globo {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .sobrenos {
+    margin-top: 80px;
+  }
+  .sobre-conteudo p {
+    width: 400px;
+  }
+  .sobre-btn {
+    width: 140px;
+    height: 40px;
+  }
+  .sobre-btn a {
+    font-size: 14px;
+  }
+  .sobre-btn a:hover {
+    font-size: 14px;
+  }
+}

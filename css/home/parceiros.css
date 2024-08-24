@@ -22,3 +22,19 @@
   align-items: center;
   gap: 64px;
 }
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .parceiros {
+    padding-top: 120px;
+  }
+  .parceiros-titulo h1 {
+    font-size: 2rem;
+    width: 400px;
+  }
+  .marcas-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px;
+  }
+}
