@@ -1,3 +1,8 @@
+.contato-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contato-geral {
   margin-top: 150px;
   display: grid;
@@ -24,40 +29,15 @@
   color: #b0b0b0;
   font-size: 1.1rem;
   text-align: justify;
-  margin-bottom: 40px;
-}
-.tel-cont {
-  display: flex;
-  align-items: center;
-  gap: 22px;
   margin-bottom: 24px;
 }
-.tel-cont a {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #f9f8f3;
-}
-.email-cont {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-}
-.email-cont a {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #f9f8f3;
-}
 .redes-sociais {
-  margin-top: 40px;
+  margin-top: 24px;
 }
 .sociais {
   display: flex;
   gap: 12px;
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 }
 .conts-btn {
   width: 240px;
@@ -139,5 +119,15 @@
 }
 
 .enviar .form-submit-btn:hover {
-  background-color: #5a00a8; /* Cor roxa escura para hover */
+  background-color: #420670;
+}
+/* Responsividade */
+@media (max-width: 800px) {
+  .contato-geral {
+    margin-top: 120px;
+  }
+  .contato-conteudo h1 {
+    font-size: 2rem;
+    width: 400px;
+  }
 }

@@ -1,0 +1,88 @@
+footer {
+  margin-left: -80px;
+  margin-right: -80px;
+  background: #0c0c0c;
+}
+.footer-container {
+  margin-top: 150px;
+}
+.footer-geral {
+  padding-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 20px;
+}
+.intro p {
+  width: 550px;
+  color: #b0b0b0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+.footer-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-conteudo h2 {
+  color: #f9f8f3;
+  font-family: "Krub", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.footer-links a {
+  color: #f9f8f3;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+.footer-links a:hover {
+  color: #b0b0b0;
+  font-size: 1rem;
+}
+.footer-contato p {
+  color: #f9f8f3;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+.f-sociais img {
+  height: 34px;
+}
+.f-sociais {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-direitos {
+  margin-top: 50px;
+}
+.footer-direitos span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #b0b0b0;
+  margin: 20px 0;
+}
+.footer-direitos p {
+  color: #f9f8f3;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-direitos small {
+  color: #b0b0b0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
