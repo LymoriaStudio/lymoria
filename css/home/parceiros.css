@@ -38,3 +38,9 @@
     gap: 22px;
   }
 }
+
+@media (max-width: 600px) {
+  .parceiros-titulo h1 {
+    width: 350px;
+  }
+}

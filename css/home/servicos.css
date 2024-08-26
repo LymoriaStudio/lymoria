@@ -130,11 +130,14 @@
   .servicos {
     padding-top: 80px;
   }
+  .servicos-titulo h1 {
+    width: 350px;
+  }
   .serv-txt h2 {
-    width: 400px;
+    width: 350px;
   }
   .serv-txt p {
-    width: 400px;
+    width: 350px;
   }
   .serv-btn {
     width: 240px;

@@ -74,8 +74,11 @@
   .sobrenos {
     margin-top: 80px;
   }
+  .sobre-conteudo h1 {
+    width: 350px;
+  }
   .sobre-conteudo p {
-    width: 400px;
+    width: 350px;
   }
   .sobre-btn {
     width: 140px;

@@ -181,6 +181,9 @@
   }
 }
 @media (max-width: 600px) {
+  .projetos-titulo h1 {
+    width: 350px;
+  }
   .projetos {
     padding-top: 80px;
   }
@@ -191,7 +194,7 @@
     width: 400px;
   }
   .card-con1 span {
-    margin-right: 180px;
+    margin-right: 120px;
   }
 
   .card2 img {
