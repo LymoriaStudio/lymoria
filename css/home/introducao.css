@@ -117,11 +117,11 @@
 @media (max-width: 600px) {
   .introducao-conteudo h1 {
     font-size: 2rem;
-    width: 400px;
+    width: 320px;
   }
   .introducao-conteudo p {
     font-size: 1rem;
-    width: 400px;
+    width: 320px;
     text-align: justify;
   }
   .introducao-btn {
