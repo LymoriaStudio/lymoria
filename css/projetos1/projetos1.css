@@ -59,3 +59,52 @@
   cursor: pointer;
   margin-bottom: 40px;
 }
+
+@media (max-width: 800px) {
+  .card-cont h2 {
+    font-size: 1.8rem;
+  }
+  .card-cont span {
+    margin-right: 100px;
+  }
+  .cardimg img {
+    width: 520px;
+    height: 320px;
+    border-radius: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-cont p {
+    width: 350px;
+  }
+
+  .cardt1,
+  .cardt2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .cardimg {
+    grid-row: 1;
+  }
+
+  .card-cont {
+    grid-row: 2;
+  }
+
+  .cardimg img {
+    width: 350px;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  .card-cont h2 {
+    font-size: 1.6rem;
+  }
+
+  .card-cont span {
+    margin-right: 120px;
+  }
+}

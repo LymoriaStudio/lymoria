@@ -184,6 +184,11 @@
   .projetos-titulo h1 {
     width: 350px;
   }
+  .pag-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .projetos {
     padding-top: 80px;
   }
