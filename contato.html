@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soluções digitais inovadoras, feitas sob medida para seu negócio. Transforme ideias em realidades digitais com a Lymoria.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/fiveicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./css/global/global.css">
+  <link rel="stylesheet" href="./css/global/header.css">
+  <link rel="stylesheet" href="./css/global/footer.css">
+
+  <link rel="stylesheet" href="./css/home/introducao.css">
+  <link rel="stylesheet" href="./css/home/servicos.css">
+  <link rel="stylesheet" href="./css/home/sobre.css">
+  <link rel="stylesheet" href="./css/home/projetos.css">
+  <link rel="stylesheet" href="./css/home/parceiros.css">
+  <link rel="stylesheet" href="./css/home/contato.css">
+  <title>Lymoria / Sobre nós</title>
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header-container">
+      <a href="index.html">
+        <img src="./img/logo.png" alt="Lymoria">
+      </a>
+
+      <nav aria-label="primaria">
+        <ul class="header-menu">
+          <li><a href="sobrenos.html">Serviços</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="sobrenos.html">Sobre nós</a></li>
+          <div class="cont-btn1">
+            <button class="cont-btn"><a href="contato.html">Contato</a></button>
+          </div>
+        </ul>
+
+        <!-- Menu Burger -->
+        <button class="borda">
+          <div class="burger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contato-geral">
+    <div class="contato-container">
+      <div class="contato-conteudo">
+        <h3>Contato</h3>
+        <h1>Seu sucesso começa com uma simples mensagem.</h1>
+        <p>Estamos aqui para ouvir suas ideias e ajudar a transformá-las em soluções digitais de impacto. Quer você tenha um projeto em mente ou apenas precise de orientação, nossa equipe está pronta para colaborar com você. Entre em contato e vamos iniciar uma parceria que impulsionará o seu negócio para o próximo nível.</p>
+
+        <div class="redes-sociaisc1">
+          <div class="s-tx">
+            <h1>Siga também nossas redes sociais</h1>
+          </div>
+          <div class="sociaisc1">
+            <a href="#" target="">
+              <img src="./img/insta-icon-1.png" alt="instagram">
+            </a>
+            <a href="#" target="">
+              <img src="./img/face-icon-1.png" alt="instagram">
+            </a>
+            <a href="#" target="">
+              <img src="./img/dribble-icon-1.png" alt="instagram">
+            </a>
+            <a href="#" target="">
+              <img src="./img/linkedlin-icon-1.png" alt="instagram">
+            </a>
+            <a href="#" target="">
+              <img src="./img/pinterest-icon-1.png" alt="instagram">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form class="form" action="send_email.php" method="post">
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input required="" name="name" id="name" type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input required="" name="email" id="email" type="email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone</label>
+          <input required="" name="phone" id="phone" type="tel">
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem</label>
+          <textarea required="" cols="50" rows="10" id="message" name="message"></textarea>
+        </div>
+        <div class="enviar">
+          <button type="submit" class="form-submit-btn">Enviar</button>
+        </div>
+      </form>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-bg">
+      <div class="footer-container">
+        <div class="footer-geral">
+          <div class="intro">
+            <img src="./img/logo.png" alt="">
+            <p>Na Lymoria, transformamos ideias em soluções digitais que impulsionam negócios. Desenvolvemos sites e designs que criam experiências únicas.</p>
+          </div>
+          <div class="footer-conteudo">
+            <div class="footer-links">
+              <h2>Linkis Rápidos</h2>
+              <ul>
+                <li><a href="sobrenos.html">Serviços</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+              </ul>
+            </div>
+            <div class="footer-contato">
+              <h2>Contato</h2>
+              <P>Telefone: +55 (19)99656-8815</P>
+              <p>E-mail: Lymoriastudio@gmail.com</p>
+            </div>
+            <div class="footer-sociais">
+              <h2>Rede Sociais</h2>
+              <div class="f-sociais">
+                <a href="#" target="">
+                  <img src="./img/insta-icon-1.png" alt="instagram">
+                </a>
+                <a href="#" target="">
+                  <img src="./img/face-icon-1.png" alt="instagram">
+                </a>
+                <a href="#" target="">
+                  <img src="./img/dribble-icon-1.png" alt="instagram">
+                </a>
+                <a href="#" target="">
+                  <img src="./img/linkedlin-icon-1.png" alt="instagram">
+                </a>
+                <a href="#" target="">
+                  <img src="./img/pinterest-icon-1.png" alt="instagram">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-direitos">
+            <span></span>
+            <p>&copy; 2024 Lymoria. Todos os direitos reservados.</p>
+            <small>Desenvolvido por Izabela Izidorio.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

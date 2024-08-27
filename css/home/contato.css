@@ -139,6 +139,11 @@
   .redes-sociais {
     display: none;
   }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 600px) {
   .contato-conteudo h1 {
